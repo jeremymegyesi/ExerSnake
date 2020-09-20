@@ -1,7 +1,15 @@
 {
-  "name": "$name$",
-  "version": "$version$",
+  "name": "exersnake",
+  "version": "1.0.0",
+  "description": "A simple Battlesnake written in JavaScript for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    $END$
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
